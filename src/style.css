@@ -1,0 +1,45 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+/* .value {
+     display: flex; 
+} */
+
+.timer {
+    display: flex;
+	width: 700px;
+	height: 180px;
+	padding-top: 30px;
+    background: #111;
+   
+}
+.field {
+/* 	width: 100px; */
+	height: 70px;
+	margin: 0 auto 5px;
+  
+	background-color: rgba(255,255,255,0.1);
+}
+	.value {
+        display: block;
+		width: 85px;
+		height: 70px;
+		font-size: 60px;
+		line-height: 68px;
+		color: #e1e1e1;
+		letter-spacing: 10px;
+		padding-left: 4px;
+	}
+	.label {
+        display: block;
+	
+		height: 70px;
+		
+		font-size: 25px;
+		line-height: 58px;
+		color: #888;
+		text-align: center;
+	}
